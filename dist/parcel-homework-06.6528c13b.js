@@ -716,9 +716,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"6kb64":[function(require,module,exports,__globalThis) {
 var _todoStoreJs = require("./todoStore.js");
 var _renderJs = require("./render.js");
-const input = document.getElementById("taskInput");
-const addBtn = document.getElementById("addBtn");
-const list = document.getElementById("taskList");
+const input = document.querySelector("#taskInput");
+const addBtn = document.querySelector("#addBtn");
+const list = document.querySelector("#taskList");
 function update() {
     (0, _renderJs.renderTasks)((0, _todoStoreJs.getTasks)(), list, handleToggle, handleDelete);
 }
