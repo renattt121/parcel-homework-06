@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+li {
+  background: #eee;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 8px;
+  list-style: none;
+  display: flex;
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=parcel-homework-06.c92073ef.css.map */

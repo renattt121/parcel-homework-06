@@ -1,0 +1,24 @@
+{
+  "name": "parcel-homework-06",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renattt121/parcel-homework-06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renattt121/parcel-homework-06/issues"
+  },
+  "homepage": "https://github.com/renattt121/parcel-homework-06#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
